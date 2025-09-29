@@ -8,7 +8,7 @@ body {
   grid-template-rows: repeat(20, 70px);
   justify-content: center;
   font-family: Tahoma, Geneva, Verdana, sans-serif;
-  background-color: ghostwhite;
+  background-color: #edd3c4;
 }
 main {
   grid-column: 3 / 5;
@@ -21,7 +21,7 @@ main {
   justify-content: center;
   align-items: center;
   background: mistyrose;
-
+  box-shadow: 3px 3px 3px #7d6167;
   border-radius: 5px;
 }
 #todos {
@@ -57,7 +57,7 @@ button {
   border: 2px solid gray;
   border-radius: 5px;
   font-family: cursive;
-  background-color: antiquewhite;
+  background-color: #e6dbd0;
 }
 #todoContentContainer {
   display: flex;
@@ -69,4 +69,7 @@ h1 {
   font-family: "Shadows Into Light", cursive;
   margin-bottom: 20px;
   font-size: 60px;
+}
+button:hover {
+  background-color: #c8adc0;
 }

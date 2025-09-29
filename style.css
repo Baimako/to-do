@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(6, 250px);
+  grid-template-rows: repeat(20, 70px);
+  justify-content: center;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background-color: ghostwhite;
+}
+main {
+  grid-column: 3 / 5;
+  grid-row: 2 / 12;
+}
+#todoContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: mistyrose;
+
+  border-radius: 5px;
+}
+#todos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+#lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#lista li {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: antiquewhite;
+  border: 2px solid lightgrey;
+  list-style: none;
+
+  font-family: "Schoolbell";
+  font-size: 24px;
+}
+input {
+  padding: 15px;
+  border-radius: 5px;
+  border: solid 2px gray;
+  width: 100%;
+  margin-right: 10px;
+}
+button {
+  padding: 13px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  font-family: cursive;
+  background-color: antiquewhite;
+}
+#todoContentContainer {
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 0;
+}
+h1 {
+  font-family: "Shadows Into Light", cursive;
+  margin-bottom: 20px;
+  font-size: 60px;
+}
